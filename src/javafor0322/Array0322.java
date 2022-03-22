@@ -9,19 +9,21 @@ public class Array0322 {
 
 	Scanner scanner = new Scanner(System.in);
 	
-	int intArray[] = new int[5];
+//	int Array[] = new int[5];
+	
+	int Array[];
+	Array = new int[4];
 	int max=0;
-	double ave;
 	int sum=0;
 	int count=0;
 	
 	System.out.println("양수 5개를 입력하세요");
 	
 	for(int i=0; i<5; i++) {
-		intArray[i] = scanner.nextInt();
-		if(intArray[i]>max)
-			max=intArray[i];
-		sum+=intArray[i];
+		Array[i] = scanner.nextInt();
+		if(Array[i]>max)
+			max=Array[i];
+		sum+=Array[i];
 		count++;
 	}
 	
