@@ -12,7 +12,7 @@ public class Array0322 {
 //	int Array[] = new int[5];
 	
 	int Array[];
-	Array = new int[4];
+	Array = new int[5];
 	int max=0;
 	int sum=0;
 	int count=0;
